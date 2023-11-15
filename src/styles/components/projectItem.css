@@ -1,0 +1,29 @@
+.projects{
+    background-color: black;
+    max-width: 90%;
+    margin: auto;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    text-align: center;
+    padding: 2rem;
+}
+.projects h1{
+    font-size: 3rem;
+}
+.projects p{
+    font-size: 1.8rem;
+}
+.projects a{
+    color: #ffffff;
+}
+.projects img{
+    width: 20rem;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}

@@ -1,0 +1,82 @@
+.formulario{
+    text-align: left;
+    color: #ffffff;
+}
+.formulario label{
+    font-size: 2rem;
+}
+.formulario input{
+    font-size: 1.5rem;
+    padding: 0.3rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    min-width: 100%;
+    min-height: 1.5rem;
+    border: 1px solid rgb(163, 163, 163);
+}
+.formulario textarea{
+    font-size: 1rem;
+    padding: 0.3rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    min-width: 100%;
+    min-height: 4rem;
+    border: 1px solid rgb(163, 163, 163);
+    resize: none;
+}
+.formulario h1{
+    text-align: center;
+}
+.formulario input:hover,
+.formulario textarea:hover{
+    box-shadow: 0 0 8px black;
+}
+
+.iconSend{
+    font-size: 4rem;
+}
+
+.formulario .divbtn{
+    text-align: center;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.i{
+    color: #ffffff;
+    font-size: 2.5rem;
+    transition: all 300ms;
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    -ms-transition: all 300ms;
+    -o-transition: all 300ms;
+}
+
+.linke:hover{
+    color: #004182;
+}
+.mail:hover{
+    color: #C5221F; 
+}
+.whats:hover{
+    color: #00E676;
+}
+.ig:hover{
+    color: #F200E6;
+}
+.github:hover{
+    color: #8400E3;
+}
+.github{
+    font-size: 4rem;
+}

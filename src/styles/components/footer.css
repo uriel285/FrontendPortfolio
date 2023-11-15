@@ -1,0 +1,11 @@
+footer{
+    background-color: black;
+    box-shadow: 0 0 0.8rem rgb(0, 0, 0);
+    padding: 0.3rem;
+}
+
+footer h6{
+    font-size: 1rem;
+    color: rgb(202, 202, 202);
+    text-align: center;
+}

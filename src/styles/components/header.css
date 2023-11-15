@@ -1,0 +1,19 @@
+.head {
+    min-width: 100vw;
+    top: 0;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    transition: background-color 0.5s ease;
+    -webkit-transition: background-color 0.5s ease;
+    -moz-transition: background-color 0.5s ease;
+    -ms-transition: background-color 0.5s ease;
+    -o-transition: background-color 0.5s ease;
+    background-color: #000000;
+    box-shadow: 0 0 0.8rem rgb(0, 0, 0);
+}
+
+.head img{
+    width: 8rem;
+}
