@@ -9,7 +9,7 @@ const ProjectsPage = (props) => {
     useEffect(() => {
         const cargarProjects = async () => {
             setLoading(true);
-            const response = await axios.get('http://localhost:3000/api/projects');
+            const response = await axios.get('https://backend-uriel-portafolio.onrender.com/api/projects');
             setProjects(response.data);
             setLoading(false);
         };
