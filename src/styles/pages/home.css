@@ -135,3 +135,28 @@ button {
     text-align: left;
     text-wrap: balance;
   }
+
+@media only screen and (max-width: 514px){
+  .portadaAtro h1{
+    font-size: 2.5rem;
+  }
+  .portadaAtro h2{
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 450px){
+  .portadaAtro img{
+    width: 4;
+  }
+  .card h1{
+    font-size: 2rem;
+  }
+  .card p{
+    font-size: 1rem;
+  }
+  button{
+    font-size: 3rem;
+    width: 50%;
+  }
+
+}

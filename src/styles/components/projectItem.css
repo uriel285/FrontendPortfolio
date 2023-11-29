@@ -18,6 +18,8 @@
 }
 .projects a{
     color: #ffffff;
+    font-size: 1.2rem;
+    max-width: 100%;
 }
 .projects img{
     width: 20rem;
@@ -26,4 +28,14 @@
     -moz-border-radius: 2rem;
     -ms-border-radius: 2rem;
     -o-border-radius: 2rem;
+}
+@media only screen and (max-width: 560px){
+    .projects a{
+        font-size: 0.8rem;
+    }
+}
+@media only screen and (max-width: 430px){
+    .projects a{
+        font-size: 0.6rem;
+    }
 }

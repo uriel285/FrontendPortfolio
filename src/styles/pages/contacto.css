@@ -37,6 +37,10 @@
 .formulario textarea:hover{
     box-shadow: 0 0 8px black;
 }
+.formulario input,
+.formulario textarea{
+    max-width: 100%;
+}
 
 .iconSend{
     font-size: 4rem;
@@ -79,4 +83,19 @@
 }
 .github{
     font-size: 4rem;
+}
+
+.formulario button{
+    max-width: 60%;
+}
+
+@media only screen and (max-width: 470px){
+    .iconSend{
+        font-size: 2rem;
+    }
+    .formulario h1{
+        font-size: 2rem;
+        margin-top: 4rem;
+    }
+
 }
