@@ -30,7 +30,7 @@ const ContactoPage = (props) => {
         setMsg('');
         setSending(true)
         const response = await
-axios.post('http://localhost:3000/api/contacto', formData)
+axios.post('https://backend-uriel-portafolio.onrender.com/api/contacto', formData)
     setSending(false);
     setMsg(response.data.message);
     if (response.data.error === false){
